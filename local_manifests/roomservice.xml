@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/sargo" remote="github" name="LineageOS/android_device_google_sargo" />
+  <project path="device/google/bonito" remote="github" name="LineageOS/android_device_google_bonito" />
+  <project path="kernel/google/msm-4.9" remote="github" name="LineageOS/android_kernel_google_msm-4.9" />
+</manifest>

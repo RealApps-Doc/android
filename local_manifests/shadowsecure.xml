@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="packages/apps/ShadowSecure" remote="main" name="android_packages_apps_ShadowSecure" />
+	<project path="packages/apps/WireGuard" remote="main" name="android_packages_apps_WireGuard" />
+	<remove-project name="LineageOS/android_packages_apps_Updater"/>
+	<project path="packages/apps/Updater" remote="main" name="android_packages_apps_Updater" />
+</manifest>
