@@ -2,6 +2,29 @@
 <manifest>
 	<project path="packages/apps/ShadowSecure" remote="main" name="android_packages_apps_ShadowSecure" />
 	<project path="packages/apps/WireGuard" remote="main" name="android_packages_apps_WireGuard" />
+        <!--<project path="packages/apps/Bugreporter" name="android_packages_apps_Bugreporter" remote="main" />-->
+
+	<remove-project name="LineageOS/android_packages_apps_Backgrounds"/>
+  	<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="main" />
+
+	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME"/>
+	<project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="main" />
+
+ 	<remove-project name="LineageOS/android_lineage-sdk"/>
+	<project path="lineage-sdk" name="android_lineage-sdk" remote="main" />
+
+	<remove-project name="LineageOS/android_packages_apps_Settings"/>
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="main" />
+
+	<remove-project name="LineageOS/android_packages_apps_SetupWizard"/>
+  	<project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="main" />
+
 	<remove-project name="LineageOS/android_packages_apps_Updater"/>
 	<project path="packages/apps/Updater" remote="main" name="android_packages_apps_Updater" />
+
+ 	<remove-project name="LineageOS/android_vendor_lineage"/>
+	<project path="vendor/lineage" name="android_vendor_lineage" remote="main" />
+
+	<remove-project name="LineageOS/android_packages_apps_Trebuchet"/>
+  	<project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="main" />
 </manifest>
