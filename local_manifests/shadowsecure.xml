@@ -2,6 +2,7 @@
 <manifest>
 	<project path="packages/apps/ShadowSecure" remote="main" name="android_packages_apps_ShadowSecure" />
 	<project path="packages/apps/WireGuard" remote="main" name="android_packages_apps_WireGuard" />
+	<project path="pacakges/apps/ShadowElement" remote="main" name="android_packages_apps_ShadowElement" />
         <!--<project path="packages/apps/Bugreporter" name="android_packages_apps_Bugreporter" remote="main" />-->
 
 	<remove-project name="LineageOS/android_packages_apps_Backgrounds"/>
