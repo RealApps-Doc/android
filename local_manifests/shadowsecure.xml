@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="packages/apps/ShadowSecure" remote="main" name="android_packages_apps_ShadowSecure" />
 	<project path="packages/apps/WireGuard" remote="main" name="android_packages_apps_WireGuard" />
-	<project path="pacakges/apps/ShadowElement" remote="main" name="android_packages_apps_ShadowElement" />
-        <!--<project path="packages/apps/Bugreporter" name="android_packages_apps_Bugreporter" remote="main" />-->
+	<project path="packages/apps/ShadowElement" remote="main" name="android_packages_apps_ShadowElement" />
+        <project path="packages/apps/Bugreporter" name="android_packages_apps_Bugreporter" remote="main" />
 
 	<remove-project name="LineageOS/android_packages_apps_Backgrounds"/>
 	<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="main" />
@@ -28,4 +27,15 @@
 
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet"/>
 	<project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="main" />
+
+	<remove-project name="LineageOS/android_packages_apps_Messaging"/>
+	<project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="main" />
+
+	<remove-project name="LineageOS/android_packages_apps_Snap"/>
+	<project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="main" />
+	<!--
+	<remove-project name="LineageOS/android_device_lineage_sepolicy"/>
+	<project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="main" />
+	-->
+
 </manifest>
