@@ -10,7 +10,7 @@
            review="" />
 
   <remote  name="romania"
-           fetch="ssh://git@192.168.1.196" />
+           fetch="ssh://git@build.shadowsecure.net" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
